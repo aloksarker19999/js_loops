@@ -10,6 +10,21 @@ car.push('Alok');
 //     console.log(car[i]);
 // }
 
+const user = [
+    { id: 1, name: "Alok" , email: "alok@gmail.com" },
+    { id: 2, name: "John" , email: "john@gmail.com" },
+    { id: 3, name: "Rakesh" , email: "rakesh@gmail.com" },
+];
+
+for (let i = 0; i < user.length; i++) {
+    if (user[i].email =="rakesh@gmail.com") {
+        console.log(user[i].id , user[i].name , user[i].email)
+    }
+    else{
+        console.log(user[i].id , "not found")
+    }
+}
+
 
 //For In Loop
 
